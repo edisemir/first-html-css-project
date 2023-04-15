@@ -1,0 +1,184 @@
+/* CSS Dosyası */
+
+/*boslukalrı sıfırla*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa{
+    width: 900px;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 600px;
+    margin: auto;
+}
+
+/*BANNER*/
+#banner{
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+}
+
+/*logo*/
+#logo{
+    width: 100px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+#logo img{
+    width: 100px;
+    position: relative;
+    bottom: 8px;
+}
+
+/*Sosyal Medya İkonları*/
+#sosyal{
+    width: 180px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    height: 40px;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+header #logo img{
+    position: relative;
+    left: 10px;
+}
+#icon{
+    float: right;
+    margin-left: 10px;
+    width: 50px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+/*ANAMENU*/
+#menu{
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(25, 15, 15);
+    height: 50px;
+    margin: auto;
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu ul li{
+    border-style: solid;
+    border-width: 3px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+    border-color:white;
+}
+
+#menu ul li:hover{
+    background-color: rgba(255, 0, 0, 0.462);
+}
+
+#menu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+#name{
+    float: left;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    border-style: none;
+    padding: 2px;
+    font-size: 20px;
+    color: black;
+}
+
+/*içerik ve yan menu kodları*/
+
+#icerik{
+    width: 598px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(97, 107, 110);
+    min-height: 400px;
+    float: left;
+}
+
+#yanmenu{
+    width: 298px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(203, 85, 22);
+    min-height: 400px;
+    float: right;
+}
+
+.resim{
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+
+.paragraf{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+#baslik{
+    color: red;
+    font-size: 30px;
+}
+aside h1{
+    fontsize: 25px;
+    color: whitesmoke;
+}
+aside p{
+    font-size: 12px;
+    font-weight: bolder;
+}
+/*ALTMENU*/
+#altmenu{
+    width: 898px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    height: 42px;
+    margin: auto;
+    float: left;
+    text-align: center;
+    color: black;
+}
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+#altmenu a:hover{
+    color: brown;
+}
